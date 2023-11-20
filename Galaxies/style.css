@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.root{
+
+    font-family: Mulish;
+}
+
+body{
+
+    background-color: #121214;
+    font-family: Mulish;
+    padding: 74px 100px 114px;
+}
+
+h1{
+
+    color: #02799D;
+    font-family: Mulish;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+h3{
+    color: #E1E1E6;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card{
+    
+    border-radius: 8px;
+    border: 2px solid #323238;
+    background:  #202024;
+    overflow: hidden;
+}
+
+main{
+    margin-top: 62px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    row-gap: 44px;
+    column-gap: 60px;
+
+}
+
+main h2{
+    padding: 24px 32px;
+    color: #E1E1E6;
+}
+
+main p{
+    padding: 0px 32px 32px 32px;
+    color: #C4C4CC
+
+}
